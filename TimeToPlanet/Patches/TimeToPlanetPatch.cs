@@ -26,20 +26,23 @@ namespace TimeToPlanet.Patches
             try
             {
                 StarSystem curSystem = ___simState?.CurSystem;
+                StarSystemNode starSystemNode = ___simState.Starmap?.CurPlanet;
 
-                if (___simState == null || curSystem == null) return;
+                if (___simState == null || curSystem == null || starSystemNode == null) return;
 
                 //When traveling will be the remaining days.  Relative to direction.
                 int travelTime = ___simState.TravelTime;
                 int jumpDistance = curSystem.JumpDistance;
+                int downWellDays = starSystemNode.Cost;
 
                 string travelText;
+
 
                 switch (___simState.TravelState)
                 {
                     //At the jump point no well travel.
                     case SimGameTravelStatus.WARMING_ENGINES:
-                    travelText = $"{jumpDistance}/{jumpDistance * 2}";
+                    travelText = $"{jumpDistance + downWellDays}";
                         break;
                     case SimGameTravelStatus.IN_SYSTEM:
                         //Show up-well cost.
