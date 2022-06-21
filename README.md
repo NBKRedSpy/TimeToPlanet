@@ -17,7 +17,7 @@ Safe to add and remove from existing saves.
 The mod only changes the UI and not the functionallity.  
 It should be compatible with all mods.  The exception would be any mod that changes the planet text on the Argo screen.
 
-# Travel to Planet Time Bug.
+# Travel to Planet Time Bug
 
 Rarely the game will incorrectly set the "to planet" travel time (usally 3 days) to the "to jump ship" time (usually 5+ days). The bug will cause a longer travel time than is correct and is not reflected in the UI.
 
