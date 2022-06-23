@@ -14,7 +14,7 @@ Not sure if there is enough time to land on a planet when on route to a flashpoi
 # Compatibility 
 Safe to add and remove from existing saves.
 
-The mod only changes the UI and not the functionallity.  
+The mod only changes the UI and not the functionality.  
 It should be compatible with all mods.  The exception would be any mod that changes the planet text on the Argo screen.
 
 # Travel to Planet Time - End of Navigation vs Abort Navigation
