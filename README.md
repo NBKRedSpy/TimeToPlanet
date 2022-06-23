@@ -19,8 +19,14 @@ It should be compatible with all mods.  The exception would be any mod that chan
 
 # Travel to Planet Time Bug
 
-Rarely the game will incorrectly set the "to planet" travel time (usally 3 days) to the "to jump ship" time (usually 5+ days). The bug will cause a longer travel time than is correct and is not reflected in the UI.
+On the "to do" list.
 
-This occurs rarely and is most likely due to some other mod corrupting the travel time data and seems to occur more when loading a save game.
+The issue below is not caused by the mod and will not impact the use.
 
-This mod makes the bug apperant but does not cause the issue.
+Need to verify this.  There appears to be two different times for landing on a planet:
+
+* At the end of a navigation path = "Jump distance" days, which can up to about 11 days.
+* Aborting a navigation in progress = 3 days.
+
+The effect is that the navigation abort time will be correctly reflected by this mod, but the end of navigation time will not.  However, since the end of navigation automatically departs to the planet, the mod usage is not an issue.
+
