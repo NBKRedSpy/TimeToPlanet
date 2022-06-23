@@ -17,16 +17,14 @@ Safe to add and remove from existing saves.
 The mod only changes the UI and not the functionallity.  
 It should be compatible with all mods.  The exception would be any mod that changes the planet text on the Argo screen.
 
-# Travel to Planet Time Bug
+# Travel to Planet Time - End of Navigation vs Abort Navigation
 
-On the "to do" list.
+Oddly the game has two different times to travel to a planet:
 
-The issue below is not caused by the mod and will not impact the use.
+* Automatic travel to planet at the end of navigation.
+* Aborted navigation to travel to the system.
 
-Need to verify this.  There appears to be two different times for landing on a planet:
+The automatic departure takes "Jump Distance" days, which can be as high as 18 days.
+The "Travel to System" button which aborts navigation takes a constant 3 days.
 
-* At the end of a navigation path = "Jump distance" days, which can up to about 11 days.
-* Aborting a navigation in progress = 3 days.
-
-The effect is that the navigation abort time will be correctly reflected by this mod, but the end of navigation time will not.  However, since the end of navigation automatically departs to the planet, the mod usage is not an issue.
-
+This does not affect the use of the mod as it's primary purpose is to allow a user to determine if they want to abort navigation.
